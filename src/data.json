@@ -1,0 +1,18 @@
+{
+  "roles": {
+    "project-management": {
+      "perms": {
+        "asertonextjs.GET.api.protected": {
+          "allowed": false
+        }
+      }
+    },
+    "executive": {
+      "perms": {
+        "asertonextjs.GET.api.protected": {
+          "allowed": true
+        }
+      }
+    }
+  }
+}

@@ -3,14 +3,27 @@
     "project-management": {
       "perms": {
         "asertonextjs.GET.api.protected": {
-          "allowed": false
+          "allowed": false,
+          "visible": false,
+          "enabled": false
+        }
+      }
+    },
+    "senior-management": {
+      "perms": {
+        "asertonextjs.GET.api.protected": {
+          "allowed": false,
+          "visible": false,
+          "enabled": true
         }
       }
     },
     "executive": {
       "perms": {
         "asertonextjs.GET.api.protected": {
-          "allowed": true
+          "allowed": true,
+          "visible": true,
+          "enabled": true
         }
       }
     }
